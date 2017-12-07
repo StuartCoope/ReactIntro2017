@@ -13,7 +13,7 @@ class Developer extends Component {
   render() {
     return (
       <div className='col-xs-6 col-md-3'>
-        <img src={ this.state.image } />
+        <img className='developer-logo' src={ this.state.image } />
         <h3>{ this.props.name }</h3>
         <TaskList tasks={ this.state.tasks } />
       </div>
